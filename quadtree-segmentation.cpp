@@ -156,7 +156,7 @@ int main(int argc, char** argv)
     std::cout << "trying to split..\n";
     auto r = SplitQuadTree(img);
 
-    std::cout << "splitted\n";
+    std::cout << "split\n";
     Mat imgRect = img.clone();
     OutputQuadTree(imgRect, r);
     namedWindow("split", WINDOW_AUTOSIZE);
